@@ -6,4 +6,6 @@ build --extra_execution_platforms=//custom_cc_config/config:platform
 build --host_platform=//custom_cc_config/config:platform
 build --platforms=//custom_cc_config/config:platform
 
+build --incompatible_strict_action_env
+
 build --disk_cache=/data/disk_cache
